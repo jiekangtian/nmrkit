@@ -1,0 +1,76 @@
+# Editor temporary/working/backup files
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+.idea/
+*.iml
+*.ipr
+*.iws
+*.org
+.project
+pmip
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.vim
+.vscode
+tags
+cscope.out
+# gnu global
+GPATH
+GRTAGS
+GSYMS
+GTAGS
+.cache
+.mypy_cache/
+
+# OS generated files
+.DS_Store*
+.Icon?
+.VolumeIcon.icns
+.directory
+.ehthumbs.db
+.fseventsd
+.gdb_history
+Thumbs.db
+
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing
+.cache/
+.coverage
+.coverage.*
+nosetests.xml
+.pytest_cache/
+
+# Type checking
+.mypy_cache/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.venv
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Dependency files
+poetry.lock
+
